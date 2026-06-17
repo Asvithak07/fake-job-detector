@@ -1,50 +1,93 @@
 # Fake Job Posting Detection
 
-This project is a **Fake Job Posting Detection App** built using **Python, Streamlit, and Machine Learning**.  
-It helps to classify whether a given job posting is **real or fake** based on its description.
+## Overview
 
----
+Online job portals have become a common target for fraudulent job advertisements that mislead job seekers and collect sensitive information. This project uses Machine Learning and Natural Language Processing (NLP) techniques to automatically classify job postings as genuine or fraudulent based on their textual content.
 
-## 🚀 Features
-- Simple and interactive **Streamlit web app**
-- Detects if a job posting is **fake or genuine**
-- Easy to use with just one click
+The trained model is integrated into a Streamlit web application that allows users to enter job descriptions and instantly receive a prediction.
 
----
+## Problem Statement
 
-## 🛠️ Tech Stack
-- **Python**
-- **Streamlit**
-- **Machine Learning (Classification Model)**
-- **Pandas, Scikit-learn, NumPy**
+Fake job postings can lead to financial scams, identity theft, and misinformation. Manual verification is time-consuming and difficult at scale. This project aims to automate the detection process using machine learning.
 
----
+## Key Features
 
-## 📂 Project Structure
-- `app.py` → Main Streamlit app file  
-- `requirements.txt` → Dependencies for the project  
-- `README.md` → Project Documentation  
+* Detects fake and genuine job postings
+* Interactive Streamlit interface
+* NLP-based text preprocessing
+* Real-time predictions
+* Lightweight and easy-to-use application
 
----
+## Technology Stack
 
-## ▶️ How to Run Locally
-1. Clone the repository:
-   ```bash
-2.Install the dependencies:
-     pip install -r requirements.txt
-3.Run the app:
-     streamlit run app.py
+### Programming Language
 
-🌐 Deployment:
-👉  https://fake-job-detector-07.streamlit.app/ 
+* Python
 
-📌 Future Improvements
-   1.Improve model accuracy with more training data
-   2.Add support for multiple languages
-   3.Enhance UI with better visualization
+### Machine Learning
 
-👩‍💻 Author
-Developed as a beginner-friendly machine learning project to explore real vs fake job postings. 
-    git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
- 
+* Scikit-learn
+
+### NLP & Text Processing
+
+* Pandas
+* NumPy
+* Text Vectorization
+
+### Web Framework
+
+* Streamlit
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Text Preprocessing
+4. Feature Extraction
+5. Model Training
+6. Model Evaluation
+7. Prediction Generation
+8. Streamlit Deployment
+
+## Project Structure
+
+Fake-Job-Detector/
+│
+├── data/
+├── outputs/
+├── app.py
+├── main.py
+├── requirements.txt
+├── README.md
+├── Screenshot1.png
+└── Screenshot2.png
+
+## Deployment
+
+Live Application:
+
+https://fake-job-detector-07.streamlit.app/
+
+## Application Screenshots
+
+### Home Page
+
+![Home](Screenshot1.png)
+
+### Prediction Result
+
+![Prediction](Screenshot2.png)
+
+## Future Enhancements
+
+* Improve model performance using advanced NLP techniques
+* Support multilingual job postings
+* Implement explainable AI features
+* Deploy using Docker and cloud platforms
+* Add confidence score visualization
+
+## Author
+
+Asvithaa K
+
+Machine Learning & Data Science Enthusiast
